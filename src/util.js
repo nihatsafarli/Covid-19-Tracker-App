@@ -31,7 +31,7 @@ export const ShowDataOnMap = ({ data, casesType }) => {
 
   return data.map((country, index) => (
     <>
-      <h3>{casesType}</h3>
+      
       <Circle
         key={index}
         center={[country.countryInfo.lat, country.countryInfo.long]}
